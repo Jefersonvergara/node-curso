@@ -1,0 +1,51 @@
+Flujo de nestjs
+middleware,interceptor,pipe =
+manejador de rutas 
+1-controlador(controller) + es la forma en las que se manejan las solicitudes de http (ruta)
+-* nest generate directorio name.controller  --dry-run forma corta (nest g co)
+-Parámetros (Params) = se utiliza principalmente en  get, update y deleted
+2-servicios
+ *- son unas de la columnas principales de framawork estas nos permiten separar la lógica del negoccio d nuestros ccobntroladores.
+al separar la, lógica de negoccio nos aseguramos que la logicca pueda ser reutilizable.
+
+  ***después de crear los servicios los llamamos en los controllers
+
+3-repositorio
+nest g provider
+4-base de datos 
+
+
+crear la estructura 
+crear un repositorio
+
+
+conventioal commit
+
+
+COMANDOS NESTJS
+
+comandos comunes en NestJS y explicarte brevemente su funcionalidad. Aquí tienes algunos de ellos:
+
+nest new: Crea un nuevo proyecto de NestJS. Este comando genera una estructura de directorios y archivos básicos para comenzar a desarrollar una aplicación en NestJS.
+
+nest generate: Genera automáticamente código repetitivo, como módulos, controladores, servicios, etc. Puedes utilizarlo con diferentes opciones para crear diferentes componentes en tu aplicación.
+
+nest build: Compila la aplicación de NestJS. Este comando transpila el código TypeScript en JavaScript y genera un directorio dist para la distribución de la aplicación.
+
+nest start: Inicia la aplicación de NestJS. Este comando inicia el servidor y ejecuta tu aplicación en modo de desarrollo.
+
+nest test: Ejecuta las pruebas unitarias de la aplicación. Puedes utilizar este comando para ejecutar las pruebas automatizadas escritas para tu aplicación.
+
+nest generate module: Genera un nuevo módulo en tu aplicación. Los módulos se utilizan para organizar y agrupar componentes relacionados.
+
+nest generate controller: Genera un nuevo controlador en tu aplicación. Los controladores manejan las solicitudes HTTP y definen las rutas de la API.
+
+nest generate service: Genera un nuevo servicio en tu aplicación. Los servicios son responsables de la lógica de negocio y se utilizan para interactuar con bases de datos, servicios externos, etc.
+
+nest generate middleware: Genera un nuevo middleware en tu aplicación. Los middlewares son funciones que se ejecutan antes o después de que una solicitud llegue a un controlador y se utilizan para realizar acciones adicionales en las solicitudes.
+
+nest generate pipe: Genera un nuevo pipe (tubería) en tu aplicación. Las tuberías se utilizan para transformar los datos que fluyen a través de ellas y validar los datos de entrada.
+
+
+
+

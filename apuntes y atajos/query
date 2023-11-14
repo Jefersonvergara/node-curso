@@ -1,0 +1,6 @@
+db.accounts.find({userId:ObjectId('647dfe1ddb6a221b872f30d9')})
+   .projection({})
+   .sort({_id:-1})
+   .limit(100)
+
+hacerlo on agregate

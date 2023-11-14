@@ -1,0 +1,29 @@
+Claro, aquí tienes un listado de algunas definiciones de los operadores y conceptos más comunes en MongoDB:
+
+1. **$project**: Operador de agregación que permite remodelar los documentos en la etapa de proyección. Se utiliza para incluir o excluir campos específicos, crear nuevos campos computados y renombrar campos existentes en el resultado de la consulta.
+
+2. **$unwind**: Operador de agregación que se utiliza para descomponer un array contenido en un documento en varios documentos independientes, generando un documento separado para cada elemento del array.
+
+3. **$match**: Operador de agregación que filtra los documentos de una colección de acuerdo con los criterios de búsqueda especificados. Funciona de manera similar a una consulta `find()`.
+
+4. **$group**: Operador de agregación que realiza la agrupación de documentos según un campo o conjunto de campos específicos. Se utiliza para realizar cálculos y agregaciones en grupos de documentos.
+
+5. **$sort**: Operador de agregación que se utiliza para ordenar los documentos de una colección según uno o varios campos.
+
+6. **$limit**: Operador de agregación que limita el número de documentos que se devolverán en el resultado de la consulta.
+
+7. **$skip**: Operador de agregación que se utiliza para omitir una cantidad específica de documentos en el resultado de la consulta.
+
+8. **$lookup**: Operador de agregación que permite realizar "uniones" entre colecciones. Se utiliza para buscar documentos en otra colección y agregarlos a los resultados de la consulta.
+
+9. **$sum**, **$avg**, **$min**, **$max**: Operadores de agregación utilizados dentro de la etapa de `$group` para realizar cálculos de suma, promedio, valor mínimo y valor máximo en los campos numéricos.
+
+10. **Índices**: Estructuras utilizadas para mejorar el rendimiento de las consultas en MongoDB. Los índices aceleran la búsqueda y recuperación de documentos al reducir la cantidad de documentos que deben ser escaneados.
+
+11. **Colecciones**: Son grupos de documentos almacenados en MongoDB, que pueden considerarse como el equivalente a tablas en una base de datos relacional.
+
+12. **Documentos**: Son la unidad básica de almacenamiento en MongoDB, representados en formato BSON (Binary JSON), que contiene datos en pares clave-valor.
+
+13. **BSON**: MongoDB utiliza el formato BSON (Binary JSON) para representar datos en forma binaria. Es una extensión del formato JSON que permite representar tipos de datos adicionales como fechas, binarios, entre otros.
+
+Estas son solo algunas de las definiciones y conceptos clave en MongoDB. La base de datos MongoDB es muy rica y flexible, por lo que existen muchos otros operadores y características disponibles para abordar diversos casos de uso.

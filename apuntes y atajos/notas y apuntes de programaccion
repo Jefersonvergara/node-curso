@@ -1,0 +1,4 @@
+para iniciar un proyecto en nestjs lo  primero que debemos hacer es:
+*instalar node sin no lo tenemos instalado
+*npm i -g @nestjs/cli
+*nest new project-name
